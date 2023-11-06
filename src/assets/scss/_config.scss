@@ -1,0 +1,22 @@
+$zonablack: 'ZonaPro-Black', sans-serif;
+$zonalight: 'ZonaPro-Light', sans-serif;
+$zonaregular: 'ZonaPro-Regular', sans-serif;
+$zonasemibold: 'ZonaPro-SemiBold', sans-serif;
+$zonathin: 'ZonaPro-Thin', sans-serif;
+$auth-link: #0161B1;
+$sidebar-width: 90px;
+$sidebar-bg: #ffffff;
+$sidebar-stroke: #E8E8E8; 
+$orders-bg: #AACCFF;
+$main-bg: #e4edfa;
+$text-gray: #C4C4C4;
+
+%formpseudo {
+    input::placeholder {
+        color: $text-gray;
+    }
+    input:focus, select:focus {
+        outline: none;
+        // background-color: $bg-filled;
+    }
+}
